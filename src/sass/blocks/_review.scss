@@ -1,0 +1,33 @@
+.review {
+    &-item {
+        padding: 60px 0 50px 0;
+        &_descr {
+            display: flex;
+            padding-bottom: 60px;
+            &:nth-child(3) {
+                padding-bottom: 0;
+            }
+        }
+        &__subtitle {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        &__result {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__history {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #0D0D0D;
+        }
+        &_icons {
+            width: 169px;
+            height: 169px;
+            margin-right: 60px;
+        }
+    }
+}
